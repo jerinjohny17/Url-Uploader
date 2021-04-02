@@ -24,6 +24,8 @@ import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 from helper_funcs.chat_base import TRChatBase
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+
 
 def GetExpiryDate(chat_id):
     expires_at = (str(chat_id), "Source Cloned User", "1970.01.01.12.00.00")
@@ -66,6 +68,14 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
+                reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('⚙ Help", callback_data="help_data"),
+                    InlineKeyboardButton("About 👨🏻‍🎓", callback_data="about_data"),
+                ]
+            ]
+        ),
         reply_to_message_id=update.message_id
     )
 
