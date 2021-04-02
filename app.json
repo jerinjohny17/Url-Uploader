@@ -1,6 +1,6 @@
 {
-  "name": "TG URL Uploader",
-  "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
+  "name": "TG YouTube Uploader",
+  "description": "Telegram's best Open Source YouTube Uploader Bot. Create your Fork now.",
   "keywords": [
     "telegram",
     "best",
@@ -14,9 +14,9 @@
     "remote",
     "uploader"
   ],
-  "success_url": "https://telegram.dog/AnyDLBot",
-  "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/SpEcHiDe/AnyDLBot",
+  "success_url": "https://telegram.dog/NeonUploader_bot",
+  "website": "https://github.com/NEON-BOTZ/Url-Uploader",
+  "repository": "https://github.com/NEON-BOTZ/Url-Uploader",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -40,7 +40,7 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "7351948 20516707 23122162 500346573"
+      "value": "1478534845 1428968542 1340254734 1312054275"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
@@ -49,7 +49,7 @@
     },
     "UPDATE_CHANNEL": {
       "description": "For Force Subscribe. Paste your Update channel USERNAME (without @)..",
-      "value": "",
+      "value": "NeoNBotZ",
       "required": false
     },
     "DEF_THUMB_NAIL_VID_S": {
