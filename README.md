@@ -1,7 +1,7 @@
 ## URL Uploader Bot
 ---
 
-An Open Source ALL-In-One Telegram RoBot, that can do lot of things.
+An Open Source YouTube Uploader Bot.
 
 **My Features**:
 
@@ -15,9 +15,7 @@ An Open Source ALL-In-One Telegram RoBot, that can do lot of things.
 
 #### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/)
-
-**Watch our Video for Create own Bot** - 👉 https://youtu.be/QkAkSLBgoYw
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NEON-BOTZ/Url-Uploader)
 
 #### The Hard Way
 
@@ -31,9 +29,8 @@ python bot.py
 ```
 ## Our Telegram Channel and Group
 
-* [TG Bots Updates](https://telegram.dog/TGBotsz)
-* [InFoTel Paid Apps](https://telegram.dog/InFoTel14)
-* [InFoTel Group](https://telegram.dog/InFoTelGroup)
+* [TG Bot Updates](https://telegram.dog/NeonBotz)
+* [TG Support Group](https://telegram.dog/NeonChatz)
 
 ## Credits, and Thanks to
 
@@ -41,7 +38,7 @@ python bot.py
 * [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 * [Yoily](https://telegram.dog/YoilyL) for his [UploaditBot](https://telegram.dog/UploaditBot)
 
-- For FeedBack and Suggestions, please feel free to say in [InFoTel Group](https://telegram.dog/InFoTelGroup)
+- For FeedBack and Suggestions, please feel free to say in [NeoN Group](https://telegram.dog/NeonChatz)
 
 #### LICENSE
-- GPLv3
+- [GPLv3]()
